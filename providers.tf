@@ -2,7 +2,7 @@ terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
-      version = "4.26.0"
+      version = "4.27.0"
     }
   }
 }
@@ -10,13 +10,13 @@ terraform {
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
 
-  project = "hackathon-7aso-grupo-09"
+  project = "hackaton-7aso-mgomes"
   region  = "us-west1"
   zone    = "us-west1-b"
 }
 
 provider "google-beta" {
-  project = "hackathon-7aso-grupo-09"
+  project = "hackaton-7aso-mgomes"
   region  = "us-west1"
   zone    = "us-west1-b"
 }

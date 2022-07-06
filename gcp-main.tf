@@ -23,7 +23,7 @@ resource "google_sql_database" "database" {
 }
 
 resource "google_sql_database_instance" "instance" {
-  name             = "spotmusic-db-instance"
+  name             = "spotmusic-db-instance1"
   region           = "us-central1"
   database_version = "MYSQL_8_0"
   settings {
